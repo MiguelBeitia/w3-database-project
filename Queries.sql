@@ -14,5 +14,8 @@ order by titles, avg_len asc
 
 select title from old_hdd where complete_name like 'JENNIFER DAVIS';
 
--- 4. Query -- 
 
+
+-- 4. Query -- Buscar toda las peliculas con X rating
+
+select * from film where rating='G';
